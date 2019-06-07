@@ -1,0 +1,23 @@
+{
+  "name": "podcastouvert",
+  "version": "1.0.0",
+  "description": "Les sources du site podcastouvert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomasorus/podcastouvert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomasorus/podcastouvert/issues"
+  },
+  "homepage": "https://github.com/Thomasorus/podcastouvert#readme",
+  "devDependencies": {
+    "sass": "^1.21.0"
+  }
+}
