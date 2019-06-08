@@ -49,9 +49,10 @@ h2 {
 }
 
 nav {
+  position: -webkit-sticky;
   position: sticky;
-  bottom: 0;
-  top: 0;
+  bottom: 0px;
+  top: 0px;
   width: 100%;
   background: white;
   height: 80px;
@@ -128,6 +129,10 @@ p {
 .section-content ol li {
   margin-bottom: 20px;
 }
+.section-content p {
+  text-align: justify;
+  text-justify: auto;
+}
 
 #manifeste {
   padding-top: 80px;
@@ -198,6 +203,11 @@ p {
   }
   nav ul a {
     font-size: 1rem;
+  }
+}
+@media (max-width: 560px) {
+  nav ul a {
+    font-size: 0.9rem;
   }
 }
 
