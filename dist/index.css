@@ -129,10 +129,6 @@ p {
 .section-content ol li {
   margin-bottom: 20px;
 }
-.section-content p {
-  text-align: justify;
-  text-justify: auto;
-}
 
 #manifeste {
   padding-top: 80px;
@@ -203,6 +199,12 @@ p {
   }
   nav ul a {
     font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  .section-content {
+    text-align: justify;
+    text-justify: auto;
   }
 }
 @media (max-width: 560px) {
