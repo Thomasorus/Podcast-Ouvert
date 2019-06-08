@@ -128,10 +128,6 @@ p {
   ol li {
     margin-bottom: 20px;
   }
-  p {
-    text-align:justify;
-    text-justify: auto;
-  }
 }
 
 #manifeste {
@@ -206,6 +202,13 @@ p {
         font-size: 1rem;
       }
     }
+  }
+}
+
+@media (min-width: 960px) {
+  .section-content {
+      text-align:justify;
+      text-justify: auto;
   }
 }
 
