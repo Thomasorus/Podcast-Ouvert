@@ -49,9 +49,10 @@ h2 {
 }
 
 nav {
+  position:-webkit-sticky;
   position: sticky;
-  bottom: 0;
-  top: 0;
+  bottom: 0px;
+  top: 0px;
   width: 100%;
   background: white;
   height: 80px;
@@ -207,3 +208,15 @@ p {
     }
   }
 }
+
+@media (max-width: 560px) {
+  nav {
+    ul {
+     
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
