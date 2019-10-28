@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Podcast ouvert</title>
+	<subtitle>Nous, représentants de podcasts ou d’entités productrices de podcasts, marquons par la présente notre attachement à un écosystème ouvert du média podcast.</subtitle>
+	<link href="https://podcastouvert.fr/feed/feed.xml" rel="self"/>
+	<link href="https://podcastouvert.fr/"/>
+	<updated>2019-10-28T01:00:00+01:00</updated>
+	<id>https://podcastouvert.fr/</id>
+	<author>
+		<name>Podcast ouvert</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Refonte et ouverture de la partie actualités</title>
+		<link href="https://podcastouvert.fr/blog/refonte-du-site/"/>
+		<updated>2019-10-28T01:00:00+01:00</updated>
+		<id>https://podcastouvert.fr/blog/refonte-du-site/</id>
+		<content type="html">&lt;p&gt;Après une première mouture en juin, le site profite d&#39;une petite réorganisation de son contenu. Celle-ci facilitera l&#39;édition, notamment de la foire aux questions et de la liste des signataires, pour les membres de l&#39;équipe qui ne sont pas techniciens web.&lt;/p&gt;
+&lt;p&gt;Le site possède également une nouvelle partie dédiée aux actualités. Les membres fondateurs du manifeste y prendront la parole pour discuter de l&#39;actualité du milieu du podcast.&lt;/p&gt;
+&lt;p&gt;Si vous utilisez un lecteur de flux RSS, vous pouvez vous abonner au blog via &lt;a href=&quot;https://podcastouvert.fr/feed/feed.xml&quot;&gt;cette addresse&lt;/a&gt;. Vous pouvez aussi nous trouver sur &lt;a href=&quot;https://twitter.com/podcastouvert&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
