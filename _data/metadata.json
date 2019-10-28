@@ -1,0 +1,16 @@
+{
+  "title": "Podcast ouvert",
+  "url": "https://podcastouvert.fr/",
+  "description": "Nous, représentants de podcasts ou d’entités productrices de podcasts, marquons par la présente notre attachement à un écosystème ouvert du média podcast.",
+  "feed": {
+    "subtitle": "Nous, représentants de podcasts ou d’entités productrices de podcasts, marquons par la présente notre attachement à un écosystème ouvert du média podcast.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://podcastouvert.fr/feed/feed.xml",
+    "id": "https://podcastouvert.fr/"
+  },
+  "author": {
+    "name": "Podcast ouvert",
+    "email": "youremailaddress@example.com"
+  }
+}

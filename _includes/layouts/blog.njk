@@ -1,0 +1,12 @@
+---
+layout: layouts/content.njk
+---
+<h1>{{ title }}</h1>
+
+<time class="postlist-date" datetime="{{ date }}">Le {{ date | readableDate }}</time>
+
+{{ content | safe }}
+
+<p class="author">{{ author }}</p>
+
+<p><a href="{{ '/blog' | url }}">← Retour au blog</a></p>
