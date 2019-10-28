@@ -1,7 +1,7 @@
 ---
 title: Refonte et ouverture de la partie actualités
 description: Afin de mieux répondre aux besoins de l'équipe et communiquer sur l'actualité du podcast, le site subit une petite réorganisation.
-date: 2019-28-10
+date: 2019-10-28
 layout: layouts/blog.njk
 author: Thomas Loreille
 tags: post
