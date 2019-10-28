@@ -1,0 +1,26 @@
+---
+layout: layouts/content.njk
+navtitle: Actualités
+---
+
+<h1>Dernières actualités</h1>
+
+
+{% set postslist = collections.post %}
+
+<ul class="postlist" reversed style="counter-reset: start-from {{ postslist.length + 1 }}">
+  {% for post in postslist | reverse %}
+  <li class="postlist-item">
+    <a href="{{ post.url | url }}" class="postlist-link">
+        <h2>
+      {{ post.data.title }}</h2>
+
+    </a>
+    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">Le {{ post.date | readableDate }}</time>
+    <p>{{post.data.description | safe}}
+
+    </p>
+
+  </li>
+  {% endfor %}
+</ul>

@@ -23,6 +23,14 @@ body {
 }
 
 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: var(--blue);
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h1.huge-title {
   font-size: 4vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -33,7 +41,7 @@ h1 {
 }
 
 h1 span {
-  background: var(--bgp-pink, #ff458c);
+  background: var(--pink);
   color: white;
   padding: 0 30px 0 0;
 }
@@ -46,6 +54,11 @@ h1 span {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
+}
+
+p a {
+  color:var(--blue);
+  font-weight: 500;;
 }
 
 nav {
@@ -74,8 +87,9 @@ nav {
   }
   a {
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     padding: 5px 10px;
+    font-size: 1rem;
   }
 }
 
@@ -164,7 +178,6 @@ p {
   margin:0 auto;
   padding:50px 10px;
   max-width: 860px;
-  text-align: center;
   a {color:white;}
 }
 
@@ -268,4 +281,94 @@ button.accordion:hover, button.accordion.is-open {
 
 .underline {
   text-decoration: underline;
+}
+
+.postlist-date {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.postlist {
+  margin:0;
+  padding:0;
+
+}
+
+.postlist-item {
+  list-style: none;
+  a {
+    color: var(--blue);
+  }
+  h2 {
+    margin-bottom: 0;;
+  }
+}
+
+.postlist-item:nth-child(even) {
+  a, h2 {
+    color: var(--blue);
+  }
+}
+
+.postlist-item:nth-child(odd) {
+  a, h2 {
+    color: var(--pink);
+  }
+}
+
+
+.twitter-tweet {
+  p {
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  a {
+    padding-bottom: 10px;
+    color:white;
+  }
+  background: var(--blue);
+  padding: 5px 30px 20px 30px;
+  color: 
+  white;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.author {
+  text-align: right;
+  font-style: italic;
+}
+
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  min-height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+section {
+  flex-grow: 1;
+}
+
+header, section, footer {
+  flex-shrink: 0;
+}
+
+@media (max-width: 400px) {
+  nav {
+    font-size: 0.5rem;
+  
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
 }
