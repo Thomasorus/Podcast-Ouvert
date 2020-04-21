@@ -170,3 +170,5 @@ Plus de 150 podcasteurs ont signé le manifeste :
 - **Tonton**, membre du podcast "Le Duel" (depuis 2018) et co-animateur des podcasts "Pop n Culture" puis "7th Heaven" (2015-2018)
 - **Doc**, producteur et co-présentateur du podcast “CGWhy”
 - **Jean-Seb. Hamel**, du podcast EPICUREaudio
+- **octopaddaone**, créateur et animateur « d’octopaddle.fr, le podcast »
+- **Dopi**, créateur du podcast Quelqu’un venu d’ailleurs
